@@ -17,7 +17,7 @@ model = model.eval().cuda().to(torch.bfloat16)
 
 # prompt = "<image>\nFree OCR. "
 prompt = "<image>\n<|grounding|>Convert the document to markdown. "
-image_file = 'input/1.jpg'
+image_file = 'input/2.jpg'
 output_path = './output'
 
 
